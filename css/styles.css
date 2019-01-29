@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;        /*1em && 100% == 16px, For making our site dynamic, we'll use %*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+
+hr{
+  color: grey;
+  width: 5%;
+  border-width: 6px;
+  border-style: dotted none none;
+  margin-bottom: 75px;
+}
+
+#profile-hr{
+  margin-top:75px;
+}
+
+.contact-text{
+  margin-top: 45px;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.profile{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.skill-giphy-img{
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+ .skill-computer-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container{
+  margin-top: 70px;
+}
+
+.btn{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  font-weight: 900;
+  margin-top: 90px;
+  background-color: #11CDC4;
+  padding: 15px 30px;
+  color: #EAF6F6;
+}
+
+.btn:hover{
+  background-color: #30E3CB;
+}
+
+
+.bottom-container{
+  padding: 55px 55px;
+  background-color: #66BFBF;
+}
+
+.footer-text{
+  color: #EAF6F6;
+  margin-top: 40px;
+}
+
+.footer-link{
+  margin: auto 20px auto 20px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
